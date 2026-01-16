@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #e8f0fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 
+    background-color 0.4s ease-in-out,
+    transform 0.2s ease-out,
+    color 0.3s ease;
+}
+body:hover {
+  background-color: #357ab8;
+  transform: scale(2);
+  color:cadetblue;
+  border-radius: 15px;
+}
+.card {
+  background-color: #ffffff;
+  width: 320px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 3px solid #4a90e2;
+  transition: 
+    background-color 0.4s ease-in-out,
+    transform 0.2s ease-out,
+    color 0.3s ease;
+}
+.card:hover {
+  background-color: #357ab8;
+  transform: scale(2);
+  color:cadetblue;
+  border-radius: 15px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  border: 3px solid #4a90e2;
+  object-fit: cover;
+  transition: 
+    background-color 0.4s ease-in-out,
+    transform 0.2s ease-out,
+    color 0.3s ease;
+}
+.avatar:hover {
+  background-color: #357ab8;
+  transform: scale(2);
+  color:cadetblue;
+  border-radius: 15px;
+}
+.name {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333333;
+transition: 
+    background-color 0.4s ease-in-out,
+    transform 0.2s ease-out,
+    color 0.3s ease;
+}
+.name:hover {
+  background-color: #357ab8;
+  transform: scale(2);
+  color:cadetblue;
+  border-radius: 15px;
+}
+.description {
+  font-size: 1em;
+  color: #555555;
+  margin-bottom: 20px;
+  transition: 
+    background-color 0.4s ease-in-out,
+    transform 0.2s ease-out,
+    color 0.3s ease;
+}
+.description:hover {
+  background-color: #357ab8;
+  transform: scale(2);
+  color:cadetblue;
+  border-radius: 15px;
+}
+.contact-button {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 
+    background-color 0.4s ease-in-out,
+    transform 0.2s ease-out,
+    color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #357ab8;
+  transform: scale(2);
+  color:cadetblue;
+  border-radius: 15px;
+}
