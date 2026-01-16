@@ -13,9 +13,9 @@ body {
     color 0.3s ease;
 }
 body:hover {
-  background-color: #357ab8;
-  transform: scale(2);
-  color:cadetblue;
+background-color: #82b8eb;
+  transform: scale(1.01);
+  color:rgb(21, 33, 34);
   border-radius: 15px;
 }
 .card {
@@ -32,9 +32,9 @@ body:hover {
     color 0.3s ease;
 }
 .card:hover {
-  background-color: #357ab8;
-  transform: scale(2);
-  color:cadetblue;
+ background-color: #82b8eb;
+  transform: scale(1.01);
+  color:rgb(21, 33, 34);
   border-radius: 15px;
 }
 
@@ -51,9 +51,9 @@ body:hover {
     color 0.3s ease;
 }
 .avatar:hover {
-  background-color: #357ab8;
-  transform: scale(2);
-  color:cadetblue;
+ background-color: #82b8eb;
+  transform: scale(1.01);
+  color:rgb(21, 33, 34);
   border-radius: 15px;
 }
 .name {
@@ -67,9 +67,9 @@ transition:
     color 0.3s ease;
 }
 .name:hover {
-  background-color: #357ab8;
-  transform: scale(2);
-  color:cadetblue;
+background-color: #82b8eb;
+  transform: scale(1.01);
+  color:rgb(21, 33, 34);
   border-radius: 15px;
 }
 .description {
@@ -82,9 +82,9 @@ transition:
     color 0.3s ease;
 }
 .description:hover {
-  background-color: #357ab8;
-  transform: scale(2);
-  color:cadetblue;
+ background-color: #82b8eb;
+  transform: scale(1.01);
+  color:rgb(21, 33, 34);
   border-radius: 15px;
 }
 .contact-button {
@@ -104,7 +104,8 @@ transition:
 
 .contact-button:hover {
   background-color: #357ab8;
-  transform: scale(2);
+  transform: scale(1.1);
   color:cadetblue;
   border-radius: 15px;
+
 }
